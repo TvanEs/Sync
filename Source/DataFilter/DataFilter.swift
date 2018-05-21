@@ -24,6 +24,7 @@ class DataFilter: NSObject {
                        localPrimaryKey: String,
                        remotePrimaryKey: String,
                        context: NSManagedObjectContext,
+                       progress: Progress? = nil,
                        inserted: (_ json: [String: Any]) -> Void,
                        updated: (_ json: [String: Any], _ updatedObject: NSManagedObject) -> Void) {
         self.changes(changes, inEntityNamed: entityName, predicate: nil, operations: .all, localPrimaryKey: localPrimaryKey, remotePrimaryKey: remotePrimaryKey, context: context, inserted: inserted, updated: updated)
@@ -36,6 +37,7 @@ class DataFilter: NSObject {
                        localPrimaryKey: String,
                        remotePrimaryKey: String,
                        context: NSManagedObjectContext,
+                       progress: Progress? = nil,
                        inserted: (_ json: [String: Any]) -> Void,
                        updated: (_ json: [String: Any], _ updatedObject: NSManagedObject) -> Void) {
         // `DataObjectIDs.objectIDsInEntityNamed` also deletes all objects that don't have a primary key or that have the same primary key already found in the context
@@ -59,6 +61,7 @@ class DataFilter: NSObject {
                 let objectID = primaryKeysAndObjectIDs[fetchedID]!
                 let object = context.object(with: objectID)
                 context.delete(object)
+                progress?.completedUnitCount += 1
             }
         }
 

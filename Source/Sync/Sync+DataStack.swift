@@ -53,9 +53,9 @@ public extension DataStack {
     ///   - predicate: The predicate used to filter out changes, if you want to exclude some local items to be taken in account in the Sync process, you just need to provide this predicate.
     ///   - operations: The type of operations to be applied to the data, Insert, Update, Delete or any possible combination.
     ///   - completion: The completion block, it returns an error if something in the Sync process goes wrong.
-    public func sync(_ changes: [[String: Any]], inEntityNamed entityName: String, predicate: NSPredicate?, operations: Sync.OperationOptions, completion: ((_ error: NSError?) -> Void)?) {
+    public func sync(_ changes: [[String: Any]], inEntityNamed entityName: String, predicate: NSPredicate?, operations: Sync.OperationOptions, progress: Progress? = nil, completion: ((_ error: NSError?) -> Void)?) {
         self.performInNewBackgroundContext { backgroundContext in
-            Sync.changes(changes, inEntityNamed: entityName, predicate: predicate, parent: nil, parentRelationship: nil, inContext: backgroundContext, operations: operations, completion: completion)
+            Sync.changes(changes, inEntityNamed: entityName, predicate: predicate, parent: nil, parentRelationship: nil, inContext: backgroundContext, operations: operations, progress: progress, completion: completion)
         }
     }
 

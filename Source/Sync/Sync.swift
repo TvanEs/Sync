@@ -146,9 +146,9 @@ public protocol SyncDelegate: class {
         updateCancelled(true)
     }
 
-    class func changes(_ changes: [[String: Any]], inEntityNamed entityName: String, predicate: NSPredicate?, parent: NSManagedObject?, parentRelationship: NSRelationshipDescription?, inContext context: NSManagedObjectContext, operations: Sync.OperationOptions, shouldContinueBlock: (() -> Bool)?, objectJSONBlock: ((_ objectJSON: [String: Any]) -> [String: Any])?) throws {
+    class func changes(_ changes: [[String: Any]], inEntityNamed entityName: String, predicate: NSPredicate?, parent: NSManagedObject?, parentRelationship: NSRelationshipDescription?, inContext context: NSManagedObjectContext, operations: Sync.OperationOptions, progress: Progress? = nil, shouldContinueBlock: (() -> Bool)?, objectJSONBlock: ((_ objectJSON: [String: Any]) -> [String: Any])?) throws {
         guard let entity = NSEntityDescription.entity(forEntityName: entityName, in: context) else { fatalError("Entity named \(entityName) not found.") }
-
+        
         let localPrimaryKey = entity.sync_localPrimaryKey()
         let remotePrimaryKey = entity.sync_remotePrimaryKey()
         let shouldLookForParent = parent == nil && predicate == nil
@@ -167,20 +167,26 @@ public protocol SyncDelegate: class {
         }
 
         let dataFilterOperations = DataFilter.Operation(rawValue: operations.rawValue)
-        DataFilter.changes(changes, inEntityNamed: entityName, predicate: finalPredicate, operations: dataFilterOperations, localPrimaryKey: localPrimaryKey, remotePrimaryKey: remotePrimaryKey, context: context, inserted: { JSON in
+        DataFilter.changes(changes, inEntityNamed: entityName, predicate: finalPredicate, operations: dataFilterOperations, localPrimaryKey: localPrimaryKey, remotePrimaryKey: remotePrimaryKey, context: context, progress: progress, inserted: { JSON in
             let shouldContinue = shouldContinueBlock?() ?? true
             guard shouldContinue else { return }
 
             let created = NSEntityDescription.insertNewObject(forEntityName: entityName, into: context)
             let interceptedJSON = objectJSONBlock?(JSON) ?? JSON
+            
             created.sync_fill(with: interceptedJSON, parent: parent, parentRelationship: parentRelationship, context: context, operations: operations, shouldContinueBlock: shouldContinueBlock, objectJSONBlock: objectJSONBlock)
+            
+            progress?.completedUnitCount += 1
+            
         }) { JSON, updatedObject in
             let shouldContinue = shouldContinueBlock?() ?? true
             guard shouldContinue else { return }
 
             updatedObject.sync_fill(with: JSON, parent: parent, parentRelationship: parentRelationship, context: context, operations: operations, shouldContinueBlock: shouldContinueBlock, objectJSONBlock: objectJSONBlock)
+            
+            progress?.completedUnitCount += 1
         }
-
+        
         if context.hasChanges {
             let shouldContinue = shouldContinueBlock?() ?? true
             if shouldContinue {
