@@ -16,7 +16,7 @@ public protocol SyncDelegate: class {
 @objcMembers
 @objc public class Sync: Operation {
     public weak var delegate: SyncDelegate?
-
+    
     public struct OperationOptions: OptionSet {
         public let rawValue: Int
 
@@ -145,7 +145,7 @@ public protocol SyncDelegate: class {
 
         updateCancelled(true)
     }
-
+    
     class func changes(_ changes: [[String: Any]], inEntityNamed entityName: String, predicate: NSPredicate?, parent: NSManagedObject?, parentRelationship: NSRelationshipDescription?, inContext context: NSManagedObjectContext, operations: Sync.OperationOptions, progress: Progress? = nil, shouldContinueBlock: (() -> Bool)?, objectJSONBlock: ((_ objectJSON: [String: Any]) -> [String: Any])?) throws {
         guard let entity = NSEntityDescription.entity(forEntityName: entityName, in: context) else { fatalError("Entity named \(entityName) not found.") }
         
@@ -176,7 +176,7 @@ public protocol SyncDelegate: class {
             
             created.sync_fill(with: interceptedJSON, parent: parent, parentRelationship: parentRelationship, context: context, operations: operations, shouldContinueBlock: shouldContinueBlock, objectJSONBlock: objectJSONBlock)
             
-            progress?.completedUnitCount += 1
+            progress?.completedUnitCountFor(.insert)
             
         }) { JSON, updatedObject in
             let shouldContinue = shouldContinueBlock?() ?? true
@@ -184,7 +184,7 @@ public protocol SyncDelegate: class {
 
             updatedObject.sync_fill(with: JSON, parent: parent, parentRelationship: parentRelationship, context: context, operations: operations, shouldContinueBlock: shouldContinueBlock, objectJSONBlock: objectJSONBlock)
             
-            progress?.completedUnitCount += 1
+            progress?.completedUnitCountFor(.update)
         }
         
         if context.hasChanges {

@@ -61,7 +61,7 @@ class DataFilter: NSObject {
                 let objectID = primaryKeysAndObjectIDs[fetchedID]!
                 let object = context.object(with: objectID)
                 context.delete(object)
-                progress?.completedUnitCount += 1
+                progress?.completedUnitCountFor(.delete)
             }
         }
 
