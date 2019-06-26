@@ -22,7 +22,7 @@ public extension ProgressUserInfoKey {
 extension Progress {
     
     func completedUnitCountFor(_ type: SyncProgressType) {
-        var count: Int64 = self.userInfo[ProgressUserInfoKey.init(type.rawValue)] as? Int64 ?? 0
+        let count: Int64 = self.userInfo[ProgressUserInfoKey.init(type.rawValue)] as? Int64 ?? 0
         self.setUserInfoObject(count + 1, forKey: ProgressUserInfoKey.init(type.rawValue))
         self.completedUnitCount += 1
     }

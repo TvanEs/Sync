@@ -530,9 +530,6 @@
 		445851D01E87BAF50025434E /* 129.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851A71E87BAF50025434E /* 129.xcdatamodeld */; };
 		445851D11E87BAF50025434E /* 129.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851A71E87BAF50025434E /* 129.xcdatamodeld */; };
 		445851D21E87BAF50025434E /* 129.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851A71E87BAF50025434E /* 129.xcdatamodeld */; };
-		445851D31E87BAF50025434E /* 137.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851A91E87BAF50025434E /* 137.xcdatamodeld */; };
-		445851D41E87BAF50025434E /* 137.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851A91E87BAF50025434E /* 137.xcdatamodeld */; };
-		445851D51E87BAF50025434E /* 137.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851A91E87BAF50025434E /* 137.xcdatamodeld */; };
 		445851D61E87BAF50025434E /* 140.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851AB1E87BAF50025434E /* 140.xcdatamodeld */; };
 		445851D71E87BAF50025434E /* 140.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851AB1E87BAF50025434E /* 140.xcdatamodeld */; };
 		445851D81E87BAF50025434E /* 140.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 445851AB1E87BAF50025434E /* 140.xcdatamodeld */; };
@@ -598,6 +595,8 @@
 		4494AEA81FE5E33D0064999E /* 457-subcategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF18CA1FE1F08800C4BC3D /* 457-subcategories.json */; };
 		4494AEA91FE5E3400064999E /* 457-products.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF18C91FE1F08800C4BC3D /* 457-products.json */; };
 		4494AEAA1FE5E3410064999E /* 457-products.json in Resources */ = {isa = PBXBuildFile; fileRef = 1AFF18C91FE1F08800C4BC3D /* 457-products.json */; };
+		449E266B20CBDDBE00972130 /* 482.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D289323203EB81800C8102C /* 482.xcdatamodeld */; };
+		449E266C20CBDDBE00972130 /* 482.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D289323203EB81800C8102C /* 482.xcdatamodeld */; };
 		44B212EF1E87BCBD00C81949 /* InflectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B212EE1E87BCBD00C81949 /* InflectionsTests.m */; };
 		44B212F01E87BCBD00C81949 /* InflectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B212EE1E87BCBD00C81949 /* InflectionsTests.m */; };
 		44B212F11E87BCBD00C81949 /* InflectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B212EE1E87BCBD00C81949 /* InflectionsTests.m */; };
@@ -609,6 +608,9 @@
 		44B212F91E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B212F31E87BD5D00C81949 /* NSPropertyDescription+Sync.m */; };
 		44B212FA1E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B212F31E87BD5D00C81949 /* NSPropertyDescription+Sync.m */; };
 		44B212FB1E87BD5D00C81949 /* NSPropertyDescription+Sync.m in Sources */ = {isa = PBXBuildFile; fileRef = 44B212F31E87BD5D00C81949 /* NSPropertyDescription+Sync.m */; };
+		44BAF23020CC165800188021 /* 137.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BAF22E20CC165800188021 /* 137.xcdatamodeld */; };
+		44BAF23120CC165800188021 /* 137.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BAF22E20CC165800188021 /* 137.xcdatamodeld */; };
+		44BAF23220CC165800188021 /* 137.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BAF22E20CC165800188021 /* 137.xcdatamodeld */; };
 		44BBBC6E1F9F024E00590624 /* 412.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BBBC6C1F9F024E00590624 /* 412.xcdatamodeld */; };
 		44BBBC6F1F9F024E00590624 /* 412.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BBBC6C1F9F024E00590624 /* 412.xcdatamodeld */; };
 		44BBBC701F9F024E00590624 /* 412.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44BBBC6C1F9F024E00590624 /* 412.xcdatamodeld */; };
@@ -699,6 +701,36 @@
 		44F3DC0D202ED40500A42022 /* 476.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DC0A202ED40500A42022 /* 476.xcdatamodeld */; };
 		44F3DC0E202ED40500A42022 /* 476.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44F3DC0A202ED40500A42022 /* 476.xcdatamodeld */; };
 		5D289325203EB81800C8102C /* 482.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D289323203EB81800C8102C /* 482.xcdatamodeld */; };
+		5D96F24F219AD98200F88770 /* 519.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D96F24D219AD98200F88770 /* 519.xcdatamodeld */; };
+		5D96F251219ADAFB00F88770 /* 519.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D96F250219ADAFB00F88770 /* 519.json */; };
+		5DB9E017219AE3EB00D6F869 /* 519.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D96F24D219AD98200F88770 /* 519.xcdatamodeld */; };
+		5DB9E018219AE3EC00D6F869 /* 519.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D96F24D219AD98200F88770 /* 519.xcdatamodeld */; };
+		5DB9E019219AE3F100D6F869 /* 519.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D96F250219ADAFB00F88770 /* 519.json */; };
+		5DB9E01A219AE3F100D6F869 /* 519.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D96F250219ADAFB00F88770 /* 519.json */; };
+		6036A26121E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */; };
+		6036A26321E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */; };
+		6036A26521E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */; };
+		6036A26721E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */; };
+		6036A26821E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */; };
+		6036A26921E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */; };
+		6036A26A21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */; };
+		6036A26B21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */; };
+		6036A26C21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */; };
+		6036A26D21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */; };
+		6036A26E21E6744700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */; };
+		6036A27021E6755700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */ = {isa = PBXBuildFile; fileRef = 6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */; };
+		60802B4F21E4085A00307B88 /* ordered-many-to-many-update-inital.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */; };
+		60802B5121E4089700307B88 /* ordered-many-to-many-update-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */; };
+		60802B5421E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */; };
+		60802B5521E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */; };
+		60802B5621E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */; };
+		60802B5721E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */; };
+		60802B5821E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */; };
+		60802B5A21E411C500307B88 /* inital-ordered-many-to-many-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */; };
+		60802B5B21E411E100307B88 /* inital-ordered-many-to-many-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */; };
+		60802B5C21E411E200307B88 /* inital-ordered-many-to-many-update.json in Resources */ = {isa = PBXBuildFile; fileRef = 60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */; };
+		60802B5D21E41A1200307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */; };
+		60802B5E21E41A1300307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */; };
 		CC86E0A120216FCC00AA0947 /* 447.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */; };
 		CC86E0A220216FCC00AA0947 /* 447.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */; };
 		CC86E0A320216FCC00AA0947 /* 447.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */; };
@@ -974,7 +1006,6 @@
 		445851A41E87BAF50025434E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		445851A61E87BAF50025434E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		445851A81E87BAF50025434E /* hypbug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hypbug.xcdatamodel; sourceTree = "<group>"; };
-		445851AA1E87BAF50025434E /* hypbug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hypbug.xcdatamodel; sourceTree = "<group>"; };
 		445851AC1E87BAF50025434E /* smartworkout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = smartworkout.xcdatamodel; sourceTree = "<group>"; };
 		445851AE1E87BAF50025434E /* hypbug.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hypbug.xcdatamodel; sourceTree = "<group>"; };
 		445851B01E87BAF50025434E /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
@@ -1005,6 +1036,7 @@
 		44B212EE1E87BCBD00C81949 /* InflectionsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InflectionsTests.m; sourceTree = "<group>"; };
 		44B212F21E87BD5D00C81949 /* NSPropertyDescription+Sync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPropertyDescription+Sync.h"; sourceTree = "<group>"; };
 		44B212F31E87BD5D00C81949 /* NSPropertyDescription+Sync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPropertyDescription+Sync.m"; sourceTree = "<group>"; };
+		44BAF22F20CC165800188021 /* 137.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 137.xcdatamodel; sourceTree = "<group>"; };
 		44BBBC6D1F9F024E00590624 /* 412.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 412.xcdatamodel; sourceTree = "<group>"; };
 		44BBBC711F9F026100590624 /* 412.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 412.json; sourceTree = "<group>"; };
 		44CFE67B1E87BBE60068185B /* PrimaryKeyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimaryKeyTests.m; sourceTree = "<group>"; };
@@ -1035,6 +1067,16 @@
 		44F3DC06202ED3B600A42022 /* 476.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 476.json; sourceTree = "<group>"; };
 		44F3DC0B202ED40500A42022 /* 476.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 476.xcdatamodel; sourceTree = "<group>"; };
 		5D289324203EB81800C8102C /* 482.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 482.xcdatamodel; sourceTree = "<group>"; };
+		5D96F24E219AD98200F88770 /* 519.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 519.xcdatamodel; sourceTree = "<group>"; };
+		5D96F250219ADAFB00F88770 /* 519.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = 519.json; sourceTree = "<group>"; };
+		6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-objects-initial.json"; sourceTree = "<group>"; };
+		6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-objects-update.json"; sourceTree = "<group>"; };
+		6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-ids-update.json"; sourceTree = "<group>"; };
+		6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "453-to-many-ordered-relationship-item-insert.json"; sourceTree = "<group>"; };
+		60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ordered-many-to-many-update-inital.json"; sourceTree = "<group>"; };
+		60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "ordered-many-to-many-update-update.json"; sourceTree = "<group>"; };
+		60802B5321E40A3500307B88 /* update-ordered-many-to-many.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "update-ordered-many-to-many.xcdatamodel"; sourceTree = "<group>"; };
+		60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "inital-ordered-many-to-many-update.json"; sourceTree = "<group>"; };
 		CC86E0A020216FCC00AA0947 /* 413.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = 413.xcdatamodel; sourceTree = "<group>"; };
 		CC86E0A420216FF300AA0947 /* primary-key-organizations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "primary-key-organizations.json"; sourceTree = "<group>"; };
 		CC86E0A520216FF300AA0947 /* 447.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 447.json; sourceTree = "<group>"; };
@@ -1349,6 +1391,14 @@
 				14867D5B1E7AF4D2001D228A /* users_company.json */,
 				14867D5C1E7AF4D2001D228A /* users_notes.json */,
 				CCF9495A203AF4AF00C64B80 /* 480.json */,
+				5D96F250219ADAFB00F88770 /* 519.json */,
+				60802B4E21E4085A00307B88 /* ordered-many-to-many-update-inital.json */,
+				60802B5021E4089700307B88 /* ordered-many-to-many-update-update.json */,
+				60802B5921E411C500307B88 /* inital-ordered-many-to-many-update.json */,
+				6036A26021E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json */,
+				6036A26221E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json */,
+				6036A26621E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json */,
+				6036A26421E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json */,
 			);
 			path = JSONs;
 			sourceTree = "<group>";
@@ -1386,6 +1436,7 @@
 				CC86E09F20216FCC00AA0947 /* 447.xcdatamodeld */,
 				4494AEA21FE5E1CD0064999E /* 457.xcdatamodeld */,
 				44F3DC0A202ED40500A42022 /* 476.xcdatamodeld */,
+				CCF94955203AE72700C64B80 /* 480.xcdatamodeld */,
 				14867D881E7AF4D2001D228A /* Camelcase.xcdatamodeld */,
 				14867D8A1E7AF4D2001D228A /* Contacts.xcdatamodeld */,
 				14867D8C1E7AF4D2001D228A /* CustomRelationshipKey.xcdatamodeld */,
@@ -1404,7 +1455,8 @@
 				14867DA21E7AF4D2001D228A /* Tests.xcdatamodeld */,
 				14867DA41E7AF4D2001D228A /* ToOne.xcdatamodeld */,
 				14867DA61E7AF4D2001D228A /* Unique.xcdatamodeld */,
-				CCF94955203AE72700C64B80 /* 480.xcdatamodeld */,
+				5D96F24D219AD98200F88770 /* 519.xcdatamodeld */,
+				60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -1467,7 +1519,7 @@
 				445851A31E87BAF50025434E /* 121.xcdatamodeld */,
 				445851A51E87BAF50025434E /* 123.xcdatamodeld */,
 				445851A71E87BAF50025434E /* 129.xcdatamodeld */,
-				445851A91E87BAF50025434E /* 137.xcdatamodeld */,
+				44BAF22E20CC165800188021 /* 137.xcdatamodeld */,
 				445851AB1E87BAF50025434E /* 140.xcdatamodeld */,
 				445851AD1E87BAF50025434E /* 142.xcdatamodeld */,
 				5D289323203EB81800C8102C /* 482.xcdatamodeld */,
@@ -1815,49 +1867,49 @@
 			attributes = {
 				CLASSPREFIX = "";
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					14241E701DBC39520042ED81 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					14241E7D1DBC39600042ED81 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 					14241E8A1DBC39690042ED81 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					14241E971DBC39730042ED81 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					146D72AB1AB782920058798C = {
 						CreatedOnToolsVersion = 6.2;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 					14975BE71DBC368B0024901A = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 					14975BF31DBC36960024901A = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0810;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Manual;
 					};
 				};
 			};
 			buildConfigurationList = 146D728E1AB782920058798C /* Build configuration list for PBXProject "Project" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -1919,6 +1971,7 @@
 				14867EA81E7AF4D2001D228A /* stories-comments-no-ids.json in Resources */,
 				44E38B322005EEB2003E896B /* 422-one-to-one-insert-option-initial.json in Resources */,
 				14E6522A1E809A68000E7CC6 /* remote_key.json in Resources */,
+				5D96F251219ADAFB00F88770 /* 519.json in Resources */,
 				14867EC01E7AF4D2001D228A /* users_c.json in Resources */,
 				14867E751E7AF4D2001D228A /* bug-number-84.json in Resources */,
 				44E38AF92005E68D003E896B /* 422-one-to-many-delete-option-initial.json in Resources */,
@@ -1937,16 +1990,21 @@
 				149FF9EE1E808DFB00617A63 /* 375.json in Resources */,
 				14867E391E7AF4D2001D228A /* 233.json in Resources */,
 				14867E4E1E7AF4D2001D228A /* 3ca82a0.json in Resources */,
+				60802B4F21E4085A00307B88 /* ordered-many-to-many-update-inital.json in Resources */,
 				CC9494141F379401002167B4 /* 375-to-one-speeches.json in Resources */,
 				14867E1B1E7AF4D2001D228A /* 151-to-many-notes.json in Resources */,
 				CC86E0AB20216FF400AA0947 /* 447.json in Resources */,
+				60802B5A21E411C500307B88 /* inital-ordered-many-to-many-update.json in Resources */,
 				14867EB41E7AF4D2001D228A /* to-one-snakecase.json in Resources */,
 				14867E511E7AF4D2001D228A /* bug-113-comments-no-id.json in Resources */,
 				14867E931E7AF4D2001D228A /* notes_with_user_id_custom.json in Resources */,
 				14867DE51E7AF4D2001D228A /* users.json in Resources */,
+				6036A26721E6718800275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */,
+				6036A26121E6590400275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */,
 				14867EB11E7AF4D2001D228A /* to-one-camelcase.json in Resources */,
 				14867E841E7AF4D2001D228A /* id.json in Resources */,
 				14867EBD1E7AF4D2001D228A /* users_b.json in Resources */,
+				60802B5121E4089700307B88 /* ordered-many-to-many-update-update.json in Resources */,
 				14867E211E7AF4D2001D228A /* 151-to-many-users.json in Resources */,
 				14867E7B1E7AF4D2001D228A /* comments-no-id.json in Resources */,
 				44E38AFC2005E68D003E896B /* 422-one-to-many-insert-option-initial.json in Resources */,
@@ -1963,6 +2021,7 @@
 				14867E9F1E7AF4D2001D228A /* operation-types-users-b.json in Resources */,
 				14867E361E7AF4D2001D228A /* 225-a.json in Resources */,
 				14867E6F1E7AF4D2001D228A /* bug-254.json in Resources */,
+				6036A26321E6592600275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */,
 				44E38B2C2005EEB2003E896B /* 422-one-to-one-delete-option-initial.json in Resources */,
 				14867EC61E7AF4D2001D228A /* users_notes.json in Resources */,
 				44E38B0E2005EE70003E896B /* 422-many-to-many-insert-option-update.json in Resources */,
@@ -1972,6 +2031,7 @@
 				14867EA51E7AF4D2001D228A /* patients.json in Resources */,
 				14867E991E7AF4D2001D228A /* numbers_in_collection.json in Resources */,
 				14867DE81E7AF4D2001D228A /* users2.json in Resources */,
+				6036A26521E65BC200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */,
 				14867EBA1E7AF4D2001D228A /* users_a.json in Resources */,
 				44E38B112005EE70003E896B /* 422-many-to-many-update-option-initial.json in Resources */,
 				14867EAB1E7AF4D2001D228A /* story-summarize.json in Resources */,
@@ -2029,6 +2089,7 @@
 				14867EA91E7AF4D2001D228A /* stories-comments-no-ids.json in Resources */,
 				44E38B332005EEB2003E896B /* 422-one-to-one-insert-option-initial.json in Resources */,
 				14E6522B1E809A68000E7CC6 /* remote_key.json in Resources */,
+				5DB9E019219AE3F100D6F869 /* 519.json in Resources */,
 				14867EC11E7AF4D2001D228A /* users_c.json in Resources */,
 				14867E761E7AF4D2001D228A /* bug-number-84.json in Resources */,
 				44E38AFA2005E68D003E896B /* 422-one-to-many-delete-option-initial.json in Resources */,
@@ -2039,6 +2100,7 @@
 				14867E2B1E7AF4D2001D228A /* 157-locations.json in Resources */,
 				14867E251E7AF4D2001D228A /* 157-cities.json in Resources */,
 				44E38B152005EE70003E896B /* 422-many-to-many-delete-option-update.json in Resources */,
+				6036A26C21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */,
 				44E38B242005EEB2003E896B /* 422-one-to-one-update-option-initial.json in Resources */,
 				44BBBC731F9F026200590624 /* 412.json in Resources */,
 				14867E461E7AF4D2001D228A /* 280.json in Resources */,
@@ -2047,16 +2109,20 @@
 				14867E4F1E7AF4D2001D228A /* 3ca82a0.json in Resources */,
 				CC9494151F379401002167B4 /* 375-to-one-speeches.json in Resources */,
 				14867E1C1E7AF4D2001D228A /* 151-to-many-notes.json in Resources */,
+				60802B5521E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */,
 				14867EB51E7AF4D2001D228A /* to-one-snakecase.json in Resources */,
 				14867E521E7AF4D2001D228A /* bug-113-comments-no-id.json in Resources */,
 				CC86E0AC20216FF400AA0947 /* 447.json in Resources */,
+				60802B5B21E411E100307B88 /* inital-ordered-many-to-many-update.json in Resources */,
 				14867E941E7AF4D2001D228A /* notes_with_user_id_custom.json in Resources */,
 				14867DE61E7AF4D2001D228A /* users.json in Resources */,
 				14867EB21E7AF4D2001D228A /* to-one-camelcase.json in Resources */,
 				14867E851E7AF4D2001D228A /* id.json in Resources */,
 				14867EBE1E7AF4D2001D228A /* users_b.json in Resources */,
+				6036A26E21E6744700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */,
 				14867E221E7AF4D2001D228A /* 151-to-many-users.json in Resources */,
 				14867E7C1E7AF4D2001D228A /* comments-no-id.json in Resources */,
+				60802B5721E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */,
 				44E38AFD2005E68D003E896B /* 422-one-to-many-insert-option-initial.json in Resources */,
 				14867DEC1E7AF4D2001D228A /* users3.json in Resources */,
 				44E38B032005E68D003E896B /* 422-one-to-many-update-option-initial.json in Resources */,
@@ -2071,6 +2137,7 @@
 				14867EA01E7AF4D2001D228A /* operation-types-users-b.json in Resources */,
 				4494AEA91FE5E3400064999E /* 457-products.json in Resources */,
 				14867E371E7AF4D2001D228A /* 225-a.json in Resources */,
+				6036A26A21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */,
 				14867E701E7AF4D2001D228A /* bug-254.json in Resources */,
 				44E38B2D2005EEB2003E896B /* 422-one-to-one-delete-option-initial.json in Resources */,
 				14867EC71E7AF4D2001D228A /* users_notes.json in Resources */,
@@ -2092,6 +2159,7 @@
 				14867E731E7AF4D2001D228A /* bug-257.json in Resources */,
 				14867E671E7AF4D2001D228A /* bug-202-a.json in Resources */,
 				44E38B272005EEB2003E896B /* 422-one-to-one-update-option-update.json in Resources */,
+				6036A26921E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */,
 				14867E6D1E7AF4D2001D228A /* bug-239.json in Resources */,
 				CC86E0A920216FF400AA0947 /* primary-key-organizations.json in Resources */,
 				14867E1F1E7AF4D2001D228A /* 151-to-many-users-update.json in Resources */,
@@ -2139,6 +2207,7 @@
 				14867EAA1E7AF4D2001D228A /* stories-comments-no-ids.json in Resources */,
 				44E38B342005EEB2003E896B /* 422-one-to-one-insert-option-initial.json in Resources */,
 				14E6522C1E809A68000E7CC6 /* remote_key.json in Resources */,
+				5DB9E01A219AE3F100D6F869 /* 519.json in Resources */,
 				14867EC21E7AF4D2001D228A /* users_c.json in Resources */,
 				14867E771E7AF4D2001D228A /* bug-number-84.json in Resources */,
 				44E38AFB2005E68D003E896B /* 422-one-to-many-delete-option-initial.json in Resources */,
@@ -2149,6 +2218,7 @@
 				14867E2C1E7AF4D2001D228A /* 157-locations.json in Resources */,
 				14867E261E7AF4D2001D228A /* 157-cities.json in Resources */,
 				44E38B162005EE70003E896B /* 422-many-to-many-delete-option-update.json in Resources */,
+				6036A26D21E6744500275A06 /* 453-to-many-ordered-relationship-objects-update.json in Resources */,
 				44E38B252005EEB2003E896B /* 422-one-to-one-update-option-initial.json in Resources */,
 				44BBBC741F9F026200590624 /* 412.json in Resources */,
 				14867E471E7AF4D2001D228A /* 280.json in Resources */,
@@ -2157,16 +2227,20 @@
 				14867E501E7AF4D2001D228A /* 3ca82a0.json in Resources */,
 				CC9494161F379401002167B4 /* 375-to-one-speeches.json in Resources */,
 				14867E1D1E7AF4D2001D228A /* 151-to-many-notes.json in Resources */,
+				60802B5621E40D2700307B88 /* ordered-many-to-many-update-inital.json in Resources */,
 				14867EB61E7AF4D2001D228A /* to-one-snakecase.json in Resources */,
 				14867E531E7AF4D2001D228A /* bug-113-comments-no-id.json in Resources */,
 				CC86E0AD20216FF400AA0947 /* 447.json in Resources */,
+				60802B5C21E411E200307B88 /* inital-ordered-many-to-many-update.json in Resources */,
 				14867E951E7AF4D2001D228A /* notes_with_user_id_custom.json in Resources */,
 				14867DE71E7AF4D2001D228A /* users.json in Resources */,
 				14867EB31E7AF4D2001D228A /* to-one-camelcase.json in Resources */,
 				14867E861E7AF4D2001D228A /* id.json in Resources */,
 				14867EBF1E7AF4D2001D228A /* users_b.json in Resources */,
+				6036A27021E6755700275A06 /* 453-to-many-ordered-relationship-objects-initial.json in Resources */,
 				14867E231E7AF4D2001D228A /* 151-to-many-users.json in Resources */,
 				14867E7D1E7AF4D2001D228A /* comments-no-id.json in Resources */,
+				60802B5821E40D2A00307B88 /* ordered-many-to-many-update-update.json in Resources */,
 				44E38AFE2005E68D003E896B /* 422-one-to-many-insert-option-initial.json in Resources */,
 				14867DED1E7AF4D2001D228A /* users3.json in Resources */,
 				44E38B042005E68D003E896B /* 422-one-to-many-update-option-initial.json in Resources */,
@@ -2181,6 +2255,7 @@
 				14867EA11E7AF4D2001D228A /* operation-types-users-b.json in Resources */,
 				4494AEAA1FE5E3410064999E /* 457-products.json in Resources */,
 				14867E381E7AF4D2001D228A /* 225-a.json in Resources */,
+				6036A26B21E6744200275A06 /* 453-to-many-ordered-relationship-ids-update.json in Resources */,
 				14867E711E7AF4D2001D228A /* bug-254.json in Resources */,
 				44E38B2E2005EEB2003E896B /* 422-one-to-one-delete-option-initial.json in Resources */,
 				14867EC81E7AF4D2001D228A /* users_notes.json in Resources */,
@@ -2202,6 +2277,7 @@
 				14867E741E7AF4D2001D228A /* bug-257.json in Resources */,
 				14867E681E7AF4D2001D228A /* bug-202-a.json in Resources */,
 				44E38B282005EEB2003E896B /* 422-one-to-one-update-option-update.json in Resources */,
+				6036A26821E6743E00275A06 /* 453-to-many-ordered-relationship-item-insert.json in Resources */,
 				14867E6E1E7AF4D2001D228A /* bug-239.json in Resources */,
 				CC86E0AA20216FF400AA0947 /* primary-key-organizations.json in Resources */,
 				14867E201E7AF4D2001D228A /* 151-to-many-users-update.json in Resources */,
@@ -2357,6 +2433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60802B5421E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */,
 				14867ECC1E7AF4D2001D228A /* 125.xcdatamodeld in Sources */,
 				14867F831E7AF4D2001D228A /* TestCheckTests.swift in Sources */,
 				14867F291E7AF4D2001D228A /* Recursive.xcdatamodeld in Sources */,
@@ -2374,6 +2451,7 @@
 				14867ED21E7AF4D2001D228A /* 151-ordered-many-to-many.xcdatamodeld in Sources */,
 				14867F4A1E7AF4D2001D228A /* SyncTests.swift in Sources */,
 				CCF94957203AE72700C64B80 /* 480.xcdatamodeld in Sources */,
+				5D96F24F219AD98200F88770 /* 519.xcdatamodeld in Sources */,
 				14867EF31E7AF4D2001D228A /* 265.xcdatamodeld in Sources */,
 				14867EFC1E7AF4D2001D228A /* 283.xcdatamodeld in Sources */,
 				445851E21E87BAF60025434E /* SyncDictionaryTests.m in Sources */,
@@ -2396,7 +2474,6 @@
 				44BBBC6E1F9F024E00590624 /* 412.xcdatamodeld in Sources */,
 				14867F021E7AF4D2001D228A /* 3ca82a0.xcdatamodeld in Sources */,
 				44CFE6811E87BBE70068185B /* PrimaryKey.xcdatamodeld in Sources */,
-				445851D31E87BAF50025434E /* 137.xcdatamodeld in Sources */,
 				14867EF91E7AF4D2001D228A /* 280.xcdatamodeld in Sources */,
 				14867F111E7AF4D2001D228A /* id.xcdatamodeld in Sources */,
 				445851EB1E87BAF60025434E /* DateStringTransformer.m in Sources */,
@@ -2440,6 +2517,7 @@
 				CC86E0B62021704E00AA0947 /* DoublePrimaryKeys.xcdatamodeld in Sources */,
 				44CFE67E1E87BBE60068185B /* PrimaryKeyTests.m in Sources */,
 				14867EDB1E7AF4D2001D228A /* 157.xcdatamodeld in Sources */,
+				44BAF23020CC165800188021 /* 137.xcdatamodeld in Sources */,
 				14867F201E7AF4D2001D228A /* OrderedSocial.xcdatamodeld in Sources */,
 				14867EDE1E7AF4D2001D228A /* 179.xcdatamodeld in Sources */,
 				14867EE11E7AF4D2001D228A /* 202.xcdatamodeld in Sources */,
@@ -2474,7 +2552,9 @@
 				14867ED31E7AF4D2001D228A /* 151-ordered-many-to-many.xcdatamodeld in Sources */,
 				14867F4B1E7AF4D2001D228A /* SyncTests.swift in Sources */,
 				CCF94958203AE72700C64B80 /* 480.xcdatamodeld in Sources */,
+				5DB9E018219AE3EC00D6F869 /* 519.xcdatamodeld in Sources */,
 				14867EF41E7AF4D2001D228A /* 265.xcdatamodeld in Sources */,
+				60802B5D21E41A1200307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */,
 				14867EFD1E7AF4D2001D228A /* 283.xcdatamodeld in Sources */,
 				445851E31E87BAF60025434E /* SyncDictionaryTests.m in Sources */,
 				14867EEE1E7AF4D2001D228A /* 254.xcdatamodeld in Sources */,
@@ -2496,7 +2576,6 @@
 				44BBBC6F1F9F024E00590624 /* 412.xcdatamodeld in Sources */,
 				14867F031E7AF4D2001D228A /* 3ca82a0.xcdatamodeld in Sources */,
 				44CFE6821E87BBE70068185B /* PrimaryKey.xcdatamodeld in Sources */,
-				445851D41E87BAF50025434E /* 137.xcdatamodeld in Sources */,
 				14867EFA1E7AF4D2001D228A /* 280.xcdatamodeld in Sources */,
 				14867F121E7AF4D2001D228A /* id.xcdatamodeld in Sources */,
 				445851EC1E87BAF60025434E /* DateStringTransformer.m in Sources */,
@@ -2534,11 +2613,13 @@
 				14867F361E7AF4D2001D228A /* Unique.xcdatamodeld in Sources */,
 				14867ED91E7AF4D2001D228A /* 151-to-many.xcdatamodeld in Sources */,
 				44E38AE82005927F003E896B /* 422ManyToMany.xcdatamodeld in Sources */,
+				449E266B20CBDDBE00972130 /* 482.xcdatamodeld in Sources */,
 				14867F151E7AF4D2001D228A /* InsertObjectsInParent.xcdatamodeld in Sources */,
 				14867F451E7AF4D2001D228A /* NSPersistentContainerTests.swift in Sources */,
 				CC86E0B72021704E00AA0947 /* DoublePrimaryKeys.xcdatamodeld in Sources */,
 				44CFE67F1E87BBE70068185B /* PrimaryKeyTests.m in Sources */,
 				14867EDC1E7AF4D2001D228A /* 157.xcdatamodeld in Sources */,
+				44BAF23120CC165800188021 /* 137.xcdatamodeld in Sources */,
 				14867F211E7AF4D2001D228A /* OrderedSocial.xcdatamodeld in Sources */,
 				14867EDF1E7AF4D2001D228A /* 179.xcdatamodeld in Sources */,
 				14867EE21E7AF4D2001D228A /* 202.xcdatamodeld in Sources */,
@@ -2573,7 +2654,9 @@
 				14867ED41E7AF4D2001D228A /* 151-ordered-many-to-many.xcdatamodeld in Sources */,
 				14867F4C1E7AF4D2001D228A /* SyncTests.swift in Sources */,
 				CCF94959203AE72700C64B80 /* 480.xcdatamodeld in Sources */,
+				5DB9E017219AE3EB00D6F869 /* 519.xcdatamodeld in Sources */,
 				14867EF51E7AF4D2001D228A /* 265.xcdatamodeld in Sources */,
+				60802B5E21E41A1300307B88 /* ordered-many-to-many-update.xcdatamodeld in Sources */,
 				14867EFE1E7AF4D2001D228A /* 283.xcdatamodeld in Sources */,
 				445851E41E87BAF60025434E /* SyncDictionaryTests.m in Sources */,
 				14867EEF1E7AF4D2001D228A /* 254.xcdatamodeld in Sources */,
@@ -2595,7 +2678,6 @@
 				44BBBC701F9F024E00590624 /* 412.xcdatamodeld in Sources */,
 				14867F041E7AF4D2001D228A /* 3ca82a0.xcdatamodeld in Sources */,
 				44CFE6831E87BBE70068185B /* PrimaryKey.xcdatamodeld in Sources */,
-				445851D51E87BAF50025434E /* 137.xcdatamodeld in Sources */,
 				14867EFB1E7AF4D2001D228A /* 280.xcdatamodeld in Sources */,
 				14867F131E7AF4D2001D228A /* id.xcdatamodeld in Sources */,
 				445851ED1E87BAF60025434E /* DateStringTransformer.m in Sources */,
@@ -2633,11 +2715,13 @@
 				14867F371E7AF4D2001D228A /* Unique.xcdatamodeld in Sources */,
 				14867EDA1E7AF4D2001D228A /* 151-to-many.xcdatamodeld in Sources */,
 				44E38AE92005927F003E896B /* 422ManyToMany.xcdatamodeld in Sources */,
+				449E266C20CBDDBE00972130 /* 482.xcdatamodeld in Sources */,
 				14867F161E7AF4D2001D228A /* InsertObjectsInParent.xcdatamodeld in Sources */,
 				14867F461E7AF4D2001D228A /* NSPersistentContainerTests.swift in Sources */,
 				CC86E0B82021704E00AA0947 /* DoublePrimaryKeys.xcdatamodeld in Sources */,
 				44CFE6801E87BBE70068185B /* PrimaryKeyTests.m in Sources */,
 				14867EDD1E7AF4D2001D228A /* 157.xcdatamodeld in Sources */,
+				44BAF23220CC165800188021 /* 137.xcdatamodeld in Sources */,
 				14867F221E7AF4D2001D228A /* OrderedSocial.xcdatamodeld in Sources */,
 				14867EE01E7AF4D2001D228A /* 179.xcdatamodeld in Sources */,
 				14867EE31E7AF4D2001D228A /* 202.xcdatamodeld in Sources */,
@@ -2669,15 +2753,15 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2699,13 +2783,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2729,14 +2813,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2761,12 +2847,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -2789,14 +2877,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2819,12 +2909,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2849,15 +2941,16 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2880,13 +2973,14 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = club.syncdb.sync;
 				PRODUCT_NAME = Sync;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -2896,6 +2990,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2939,7 +3034,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2950,6 +3045,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -2986,7 +3082,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -3006,14 +3102,13 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_MODULE_NAME = Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3025,13 +3120,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_MODULE_NAME = Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3054,8 +3148,8 @@
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -3076,8 +3170,8 @@
 				PRODUCT_MODULE_NAME = Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 4.0;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -3093,14 +3187,14 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = demo.macOSTests;
 				PRODUCT_MODULE_NAME = Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -3116,12 +3210,12 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = demo.macOSTests;
 				PRODUCT_MODULE_NAME = Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -3643,16 +3737,6 @@
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
-		445851A91E87BAF50025434E /* 137.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				445851AA1E87BAF50025434E /* hypbug.xcdatamodel */,
-			);
-			currentVersion = 445851AA1E87BAF50025434E /* hypbug.xcdatamodel */;
-			path = 137.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		445851AB1E87BAF50025434E /* 140.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
@@ -3710,6 +3794,16 @@
 			);
 			currentVersion = 4494AEA31FE5E1CD0064999E /* 457.xcdatamodel */;
 			path = 457.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		44BAF22E20CC165800188021 /* 137.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44BAF22F20CC165800188021 /* 137.xcdatamodel */,
+			);
+			currentVersion = 44BAF22F20CC165800188021 /* 137.xcdatamodel */;
+			path = 137.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
@@ -3780,6 +3874,26 @@
 			);
 			currentVersion = 5D289324203EB81800C8102C /* 482.xcdatamodel */;
 			path = 482.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		5D96F24D219AD98200F88770 /* 519.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D96F24E219AD98200F88770 /* 519.xcdatamodel */,
+			);
+			currentVersion = 5D96F24E219AD98200F88770 /* 519.xcdatamodel */;
+			path = 519.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		60802B5221E40A3500307B88 /* ordered-many-to-many-update.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				60802B5321E40A3500307B88 /* update-ordered-many-to-many.xcdatamodel */,
+			);
+			currentVersion = 60802B5321E40A3500307B88 /* update-ordered-many-to-many.xcdatamodel */;
+			path = "ordered-many-to-many-update.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
